@@ -25,16 +25,18 @@ public class Account {
         return name;
     }
 
-    public void setName(String name) {
+    public Account setName(String name) {
         this.name = name;
+        return this;
     }
 
     public Double getBalance() {
         return balance;
     }
 
-    public void setBalance(Double balance) {
+    public Account setBalance(Double balance) {
         this.balance = balance;
+        return this;
     }
 
     public Long getVersion() {
